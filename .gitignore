@@ -1,0 +1,5 @@
+# Ignore IDE settings
+.vscode/
+
+# Ignore environment variables/secrets
+.myenv
