@@ -1,5 +1,11 @@
+# Ignore python cache
+__pycache__/
+
 # Ignore IDE settings
 .vscode/
 
 # Ignore environment variables/secrets
-.myenv
+.myenv/
+
+# Ignore the reports folder
+reports/

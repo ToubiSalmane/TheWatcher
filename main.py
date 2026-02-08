@@ -69,8 +69,8 @@ def run_watcher(target):
                     cvss_display
                 )
                 
-                # Add the 6s delay here for GitHub readiness
-                time.sleep(6) 
+                # Uncomment the 6s delay here to avoid NIST's NVD rate limiting
+                # time.sleep(6) 
 
     console.print(table)
 
